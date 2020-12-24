@@ -1,4 +1,4 @@
-baseurl = "www.100awsprojects.com"
+baseurl = "https://100awsprojects.com"
 languageCode = "en-us"
 Title = "100 AWS Projects"
 # Copyright notice. This is displayer in the footer.
