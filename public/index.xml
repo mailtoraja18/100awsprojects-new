@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AWS Projects</title>
+    <link>www.100awsprojects.com/</link>
+    <description>Recent content on AWS Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Copyright notice</copyright>
+    <lastBuildDate>Mon, 21 May 2018 03:13:22 -0500</lastBuildDate><atom:link href="www.100awsprojects.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API Gateway using Swagger and SAM</title>
+      <link>www.100awsprojects.com/posts/2018-05-21-api-gateway-using-swagger-and-sam/2018-03-21-api-gateway-using-swagger-and-sam/</link>
+      <pubDate>Mon, 21 May 2018 03:13:22 -0500</pubDate>
+      
+      <guid>www.100awsprojects.com/posts/2018-05-21-api-gateway-using-swagger-and-sam/2018-03-21-api-gateway-using-swagger-and-sam/</guid>
+      <description>Overview This example combines AWS SAM and Swagger Notation.Review the below 2 files given below and understand different aspects.Here are some things about this example.
+ When deployed , the swagger file here serves to create the API in the API Gateway. The template file maps the api gateway API&amp;rsquo;s to the node js methods.  petstore_v2.yaml template_v2.yaml    petstore_v2.yaml Swagger file to create the API&amp;rsquo;s in the API Gateway.</description>
+    </item>
+    
+    <item>
+      <title>Experiment with SAM Local</title>
+      <link>www.100awsprojects.com/posts/2018-03-21-experiment-with-sam-local/2018-03-21-experiment-with-sam-local/</link>
+      <pubDate>Wed, 21 Mar 2018 03:13:22 -0500</pubDate>
+      
+      <guid>www.100awsprojects.com/posts/2018-03-21-experiment-with-sam-local/2018-03-21-experiment-with-sam-local/</guid>
+      <description>The goal of AWS SAM is to define a standard application model for serverless applications. With AWS SAM Local you can be used to test functions LOCALLY in your desktop, start a LOCAL API Gateway from a SAM template, validate a SAM template, and generate sample payloads for various event sources. Lets get started to see some SAM Local in action. After testing locally you can package and deploy the functions to remote.</description>
+    </item>
+    
+    <item>
+      <title>AWS Serverless Project APIGateway Integration Part 4</title>
+      <link>www.100awsprojects.com/posts/2018-02-15-serverless-project-apigateway-integration-part-4/2018-02-15-serverless-project-apigateway-integration-part-4/</link>
+      <pubDate>Thu, 15 Feb 2018 03:13:22 -0500</pubDate>
+      
+      <guid>www.100awsprojects.com/posts/2018-02-15-serverless-project-apigateway-integration-part-4/2018-02-15-serverless-project-apigateway-integration-part-4/</guid>
+      <description>Lets get started with the API Gateway integraton. We will import a Swagger API definition and integrate one of out API , GET /pet/{petId}. We have enabled LAMBDA_PROXY integration method type for our API . Read more about the magic here. This will enable lambda to get a handle to our http request and all its details, coming from the API Gateway.
+Change the Lambda code Change the lambda code for the function dynamo_query_pet_by_id to read path prameter {petId}.</description>
+    </item>
+    
+    <item>
+      <title>AWS Serverless Project Lambda Integration Part 3</title>
+      <link>www.100awsprojects.com/posts/2018-02-11-serverless-project-lambda-integration-part-3/2018-02-11-serverless-project-lambda-integration-part-3/</link>
+      <pubDate>Sun, 11 Feb 2018 03:13:22 -0500</pubDate>
+      
+      <guid>www.100awsprojects.com/posts/2018-02-11-serverless-project-lambda-integration-part-3/2018-02-11-serverless-project-lambda-integration-part-3/</guid>
+      <description>First Read this Understanding the lambda function Handler Read More&amp;hellip;
+Create IAM Policy Review and use the below 3 files , download to a folder and execute the following command This will create a IAM Role and grants (2) permission to the Pet table and the Cloudwatch logs.
+ trustpolicy.json dynamodb_permission_serverless.json log_permission_serverless.json  # Create the role and attach the trust policy that enables Lambda to assume this role.$ aws iam create-role --role-name lambda-execution-serverless --assume-role-policy-document file://trustpolicy.</description>
+    </item>
+    
+    <item>
+      <title>AWS Serverless Project DynamoDB Part 2</title>
+      <link>www.100awsprojects.com/posts/2018-02-08-serverless-project-dynamodb-part-2/2018-02-08-serverless-project-dynamodb-part-2/</link>
+      <pubDate>Thu, 08 Feb 2018 03:13:22 -0500</pubDate>
+      
+      <guid>www.100awsprojects.com/posts/2018-02-08-serverless-project-dynamodb-part-2/2018-02-08-serverless-project-dynamodb-part-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AWS Serverless Project Introduction Part 1</title>
+      <link>www.100awsprojects.com/posts/2018-02-07-serverless-project-introduction-part-1/2018-02-07-serverless-project-introduction-part-1/</link>
+      <pubDate>Wed, 07 Feb 2018 13:13:22 -0500</pubDate>
+      
+      <guid>www.100awsprojects.com/posts/2018-02-07-serverless-project-introduction-part-1/2018-02-07-serverless-project-introduction-part-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S3 Website Ci Cd With Wercker</title>
+      <link>www.100awsprojects.com/posts/2018-01-30-s3-website-ci-cd-with-wercker/2018-01-30-s3-website-ci-cd-with-wercker/</link>
+      <pubDate>Tue, 30 Jan 2018 13:13:22 -0500</pubDate>
+      
+      <guid>www.100awsprojects.com/posts/2018-01-30-s3-website-ci-cd-with-wercker/2018-01-30-s3-website-ci-cd-with-wercker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S3 Website Using cf , Route 53 and Python Scripts</title>
+      <link>www.100awsprojects.com/posts/2018-01-27-s3-cf-website/2018-01-27-s3-cf-website/</link>
+      <pubDate>Sat, 27 Jan 2018 18:42:13 -0500</pubDate>
+      
+      <guid>www.100awsprojects.com/posts/2018-01-27-s3-cf-website/2018-01-27-s3-cf-website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown reference</title>
+      <link>www.100awsprojects.com/posts/2018-01-21-markdown-reference/2018-01-22-markdown-reference/</link>
+      <pubDate>Sun, 21 Jan 2018 18:42:13 -0500</pubDate>
+      
+      <guid>www.100awsprojects.com/posts/2018-01-21-markdown-reference/2018-01-22-markdown-reference/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
